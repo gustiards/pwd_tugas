@@ -15,6 +15,173 @@
         <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" rel="stylesheet">
         <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&amp;display=swap" rel="stylesheet">
         <link rel="stylesheet" href="../src/main.css">
+        <style>
+            body {
+  font-family: "Roboto", sans-serif;
+  background-color: #0d0d0d;
+  color: #f5f5f5;
+  margin: 0;
+  padding: 0;
+}
+.navbar {
+  background-color: #1a1a1a;
+  width: 80%;
+  margin: 0 auto;
+  margin-top: 10px;
+  border-radius: 10px;
+}
+.navbar-nav {
+  display: flex;
+  gap: 20px;
+  align-items: center;
+}
+.navbar-brand {
+  font-weight: bold;
+}
+.btn-outline-light {
+  border-color: #f5f5f5;
+  color: #f5f5f5;
+}
+.btn-outline-light:hover {
+  background-color: #f5f5f5;
+  color: #0d0d0d;
+}
+.hero-section {
+  text-align: center;
+  padding: 100px 20px;
+}
+.hero-section h1 {
+  font-size: 3rem;
+  font-weight: 700;
+}
+.hero-section p {
+  font-size: 1.25rem;
+  margin: 20px 0;
+}
+.hero-section .btn-primary {
+  background-color: #f5f5f5;
+  color: #0d0d0d;
+  border: none;
+  padding: 10px 20px;
+  font-size: 1rem;
+  font-weight: 700;
+}
+.hero-section .btn-primary:hover {
+  background-color: #e0e0e0;
+}
+.trusted-badge {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 20px;
+}
+.trusted-badge img {
+  border-radius: 50%;
+  margin-right: 10px;
+}
+.trusted-badge span {
+  font-size: 0.875rem;
+  color: #b3b3b3;
+}
+.title {
+  font-size: 45px;
+}
+#sec2 .row {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+#sec2 img {
+  max-width: 100%;
+  height: auto;
+}
+#sec2 h1 {
+  font-size: 2rem;
+  font-weight: bold;
+}
+#sec2 p {
+  font-size: 1rem;
+  line-height: 1.6;
+  margin-top: 15px;
+  text-align: justify;
+  color: #928068;
+}
+.card {
+  background-color: #0d0d0d;
+  color: white;
+  border: 1px solid #C8B59F;
+  transition: all 0.3s ease;
+}
+.card:hover {
+  box-shadow: 0 0 8px #a99874;
+  transform: scale(1.009);
+}
+.card p {
+  color: #928068;
+}
+.card a {
+  background-color: #C8B59F;
+}
+.btn {
+  display: inline-block;
+  padding: 5px 15px;
+  background-color: #C8B59F;
+  color: #0d0d0d;
+  text-decoration: none;
+  border-radius: 5px;
+  font-weight: bold;
+  transition: background-color 0.3s ease, color 0.3s ease;
+  border: none;
+}
+.btn:hover {
+  background-color: #0d0d0d;
+  color: #ffffff;
+}
+.navbar .btn {
+  padding: 8px 16px;
+  font-size: 0.875rem;
+  margin-left: 10px;
+}
+.hero-section .btn {
+  padding: 12px 24px;
+  font-size: 1.125rem;
+}
+.card .btn {
+  padding: 10px 20px;
+  font-size: 1rem;
+}
+form .form-control {
+  background-color: #0d0d0d;
+  color: #f5f5f5;
+  border: 1px solid #C8B59F;
+  border-radius: 5px;
+}
+form .form-control:focus {
+  background-color: #0d0d0d;
+  color: #f5f5f5;
+  border-color: #b39a88;
+  outline: none;
+  box-shadow: 0 0 5px #b39a88;
+}
+form .form-label {
+  color: #C8B59F;
+}
+form .btn-primary {
+  background-color: #C8B59F;
+  border: none;
+  color: #0d0d0d;
+  font-weight: bold;
+  padding: 10px 20px;
+  border-radius: 5px;
+  transition: background-color 0.3s ease;
+}
+form .btn-primary:hover {
+  background-color: #b39a88;
+}
+footer {
+  background-color: #1a1a1a;
+}
+        </style>
     </head>
     <body>
         <nav class="navbar navbar-expand-lg navbar-dark sticky-top">
@@ -89,3 +256,80 @@
                     <h2 class="text-center fw-bold">About Me</h2>
                     <div class="col-md-5 text-center py-5">
                         <img src="../src/a.png" class="w-75">
+                    </div>
+                    <div class="col-md-6 isi">
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Incidunt ab esse accusantium dicta, dolor, qui enim asperiores ratione nobis magni hic fuga vitae animi deleniti nostrum aspernatur vero assumenda. Atque soluta sed id consectetur laboriosam, placeat magnam ab voluptatem nisi.</p>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Incidunt ab esse accusantium dicta, dolor, qui enim asperiores ratione nobis magni hic fuga vitae animi deleniti nostrum aspernatur vero assumenda. Atque soluta sed id consectetur laboriosam, placeat magnam ab voluptatem nisi.</p>
+                        <a href="#" class="btn">Go somewhere</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section id="sec3" class="pt-5">
+            <div class="container sec2 py-5 mt-5">
+                <div class="row justify-content-center">
+                    <h2 class="text-center fw-bold mb-4 text-white">Project.</h2>
+                    <div class="col-md-12 d-flex flex-wrap justify-content-center py-5">
+                        <!-- Card 1 -->
+                        <div class="card mx-3 mb-3 col-12 col-md-4" style="max-width: 19rem;">
+                            <img src="../src/porto.png" class="card-img-top">
+                            <div class="card-body">
+                                <h5 class="card-title">Card title</h5>
+                                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                                <a href="#" class="btn">Go somewhere</a>
+                            </div>
+                        </div>
+                        <!-- Card 2 -->
+                        <div class="card mx-3 mb-3 col-12 col-md-4" style="max-width: 19rem;">
+                            <img src="../src/porto.png" class="card-img-top">
+                            <div class="card-body">
+                                <h5 class="card-title">Card title</h5>
+                                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                                <a href="#" class="btn">Go somewhere</a>
+                            </div>
+                        </div>
+                        <!-- Card 3 -->
+                        <div class="card mx-3 mb-3 col-12 col-md-4" style="max-width: 19rem;">
+                            <img src="../src/porto.png" class="card-img-top">
+                            <div class="card-body">
+                                <h5 class="card-title">Card title</h5>
+                                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                                <a href="#" class="btn">Go somewhere</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+<section id="contact-us" class="pt-5">
+            <div class="container py-5">
+                <h2 class="text-center fw-bold mb-4">Contact Us</h2>
+                <div class="row justify-content-center">
+                    <div class="col-md-8">
+                        <form>
+                            <div class="mb-3">
+                                <label for="name" class="form-label">Name</label>
+                                <input type="text" class="form-control" id="name" placeholder="Your Name" required>
+                            </div>
+                            <div class="mb-3">
+                                <label for="email" class="form-label">Email address</label>
+                                <input type="email" class="form-control" id="email" placeholder="name@example.com" required>
+                            </div>
+                            <div class="mb-3">
+                                <label for="message" class="form-label">Message</label>
+                                <textarea class="form-control" id="message" rows="5" placeholder="Write your message here..." required></textarea>
+                            </div>
+                            <div class="text-center">
+                                <button type="submit" class="btn">Send Message</button>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <footer>
+            <div class="py-2 mt-5 text-center">2024 © All Right Reserved</div>
+        </footer>
+        
+    </body>
+</html>
